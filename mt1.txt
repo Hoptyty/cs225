@@ -1,0 +1,32 @@
+Exam report for tliang7
+CS 225, Fall 2015, Midterm 1, Exam number 190, version 1
+
+ Num   Problem Name   Stu/Sol   Max   Score 
+----- -------------- --------- ----- -------
+   1           MC 1    c / e     3       0
+   2           MC 2    b / b     3       3
+   3           MC 3    a / d     3       0
+   4           MC 4    b / b     3       3
+   5           MC 5    a / a     3       3
+   6           MC 6    a / d     3       0
+   7           MC 7    d / d     3       3
+   8           MC 8    a / a     3       3
+   9           MC 9    b / b     3       3
+  10          MC 10    a / a     3       3
+  11          MC 11    c / d     3       0
+  12          MC 12    a / a     3       3
+  13          MC 13    c / c     3       3
+  14          MC 14    d / c     3       0
+  15   Big 3 Part 1             10       5
+  16   Big 3 Part 2             10       4
+  17   Big 3 Part 3             10       9
+  18   XList Part 1              6       6
+  19   XList Part 2             10      10
+  20   XList Part 3              6       5
+  21  XList Part 4a              4       4
+  22  XList Part 4b              4       4
+  23  XList Part 4c              4       4
+  24   XList Part 5             10      10
+----- -------------- --------- ----- -------
+              Total             116      88
+ Normalized score = 75.86

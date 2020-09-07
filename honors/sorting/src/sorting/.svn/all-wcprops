@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/fa15-cs225/!svn/ver/42315/tliang7/honors/sorting/src/sorting
+END
+core.clj
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/fa15-cs225/!svn/ver/50874/tliang7/honors/sorting/src/sorting/core.clj
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/fa15-cs225/!svn/ver/50874/tliang7/honors/sorting/src/sorting/main.cpp
+END
+sorting.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/fa15-cs225/!svn/ver/50881/tliang7/honors/sorting/src/sorting/sorting.cpp
+END
+sorting.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/fa15-cs225/!svn/ver/50881/tliang7/honors/sorting/src/sorting/sorting.h
+END
+partners.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/fa15-cs225/!svn/ver/49578/tliang7/honors/sorting/src/sorting/partners.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/fa15-cs225/!svn/ver/50874/tliang7/honors/sorting/src/sorting/Makefile
+END

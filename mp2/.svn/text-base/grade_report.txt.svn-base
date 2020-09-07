@@ -1,0 +1,8 @@
+Grading revision r10171 by tolar2, dated 2015-09-14 01:03:13.00010731 -0500 CDT
+Monad Autograder
+Testing mp2 at 2015-09-15 00:49:55
+
+"The cheapest, fastest, and most reliable components of a computer system are those that aren't there." ~ Gordon Bell
+
+Setting up test environment...
+Error: /dev/shm/cs225student/autograder/temp/mp2/scene.h does not exist.

@@ -1,0 +1,33 @@
+Grading revision r22055 by tliang7, dated 2015-10-03 21:09:13.000929154 -0500 CDT
+Monad Autograder
+Testing lab_quacks at 2015-10-05 00:46:51
+
+"The sooner you start to code, the longer the program will take." ~ R. Carlson
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+sumDigits_762  . . . [3 pts]  - passed
+sumDigits_0  . . . . [2 pts]  - passed
+sumDigits_2  . . . . [2 pts]  - passed
+sumDigits_1024 . . . [3 pts]  - passed
+triangle_0 . . . . . [2 pts]  - passed
+triangle_1 . . . . . [2 pts]  - passed
+triangle_5 . . . . . [3 pts]  - passed
+triangle_10  . . . . [3 pts]  - passed
+sum_136  . . . . . . [20 pts] - passed
+sum_floats . . . . . [20 pts] - passed
+scramble_17  . . . . [20 pts] - passed
+scramble_10  . . . . [20 pts] - passed
+verifySame_result  . [10 pts] - passed
+verifySame_no_modify [15 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 125
+

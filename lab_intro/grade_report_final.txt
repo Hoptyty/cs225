@@ -1,0 +1,323 @@
+Grading revision r3205 by tliang7, dated 2015-08-30 22:16:03.000822031 -0500 CDT
+Monad Autograder
+Testing lab_intro at 2015-08-31 00:47:24
+
+"Ridiculous!" ~ Kyle Johnson
+
+Setting up test environment...
+Compiling...
+================================================================
+In file included from unit_tests.cpp:7:
+In file included from ./png.h:25:
+./rgbapixel.h:8:12: error: extra qualification on member 'RGBAPixel'
+RGBAPixel::RGBAPixel()
+~~~~~~~~~~~^
+./rgbapixel.h:8:23: error: expected ';' at end of declaration list
+RGBAPixel::RGBAPixel()
+                      ^
+                      ;
+unit_tests.cpp:26:17: error: no member named 'red' in 'RGBAPixel'
+                        image(x, y)->red = 10*x + 10*y;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:27:17: error: no member named 'green' in 'RGBAPixel'
+                        image(x, y)->green = 25*x;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:28:17: error: no member named 'blue' in 'RGBAPixel'
+                        image(x, y)->blue = 255 - 2*x - 5*y;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:41:17: error: no member named 'red' in 'RGBAPixel'
+                        image(x, y)->red = y/2 + 64;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:42:17: error: no member named 'green' in 'RGBAPixel'
+                        image(x, y)->green = 100 + 10*x - 10*y;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:43:17: error: no member named 'blue' in 'RGBAPixel'
+                        image(x, y)->blue = 255 - 3*x - 3*y;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:58:21: error: no member named 'red' in 'RGBAPixel'
+                        if (image(x, y)->red <= 255 - 100)
+                            ~~~~~~~~~~~  ^
+unit_tests.cpp:59:32: error: no member named 'red' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->red + 100, (int)brightened(x, y)->red);
+                                              ~~~~~~~~~~~  ^
+./proxy.h:318:52: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                 ^
+unit_tests.cpp:59:66: error: no member named 'red' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->red + 100, (int)brightened(x, y)->red);
+                                                                           ~~~~~~~~~~~~~~~~  ^
+./proxy.h:318:62: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                           ^
+unit_tests.cpp:61:30: error: no member named 'red' in 'RGBAPixel'
+                                ASSERT(brightened(x, y)->red == 255);
+                                       ~~~~~~~~~~~~~~~~  ^
+./proxy.h:297:9: note: expanded from macro 'ASSERT'
+                if (!(expr))                               \
+                      ^
+unit_tests.cpp:63:21: error: no member named 'green' in 'RGBAPixel'
+                        if (image(x, y)->green <= 255 - 100)
+                            ~~~~~~~~~~~  ^
+unit_tests.cpp:64:32: error: no member named 'green' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->green + 100, (int)brightened(x, y)->green);
+                                              ~~~~~~~~~~~  ^
+./proxy.h:318:52: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                 ^
+unit_tests.cpp:64:68: error: no member named 'green' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->green + 100, (int)brightened(x, y)->green);
+                                                                             ~~~~~~~~~~~~~~~~  ^
+./proxy.h:318:62: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                           ^
+unit_tests.cpp:66:30: error: no member named 'green' in 'RGBAPixel'
+                                ASSERT(brightened(x, y)->green == 255);
+                                       ~~~~~~~~~~~~~~~~  ^
+./proxy.h:297:9: note: expanded from macro 'ASSERT'
+                if (!(expr))                               \
+                      ^
+unit_tests.cpp:68:21: error: no member named 'blue' in 'RGBAPixel'
+                        if (image(x, y)->blue <= 255 - 100)
+                            ~~~~~~~~~~~  ^
+unit_tests.cpp:69:32: error: no member named 'blue' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->blue + 100, (int)brightened(x, y)->blue);
+                                              ~~~~~~~~~~~  ^
+./proxy.h:318:52: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                 ^
+unit_tests.cpp:69:67: error: no member named 'blue' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->blue + 100, (int)brightened(x, y)->blue);
+                                                                            ~~~~~~~~~~~~~~~~  ^
+./proxy.h:318:62: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                           ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+rgbapixel.cpp:1:10: fatal error: 'RGBAPixel.h' file not found
+#include "RGBAPixel.h"
+         ^
+In file included from main.cpp:8:
+./rgbapixel.h:8:12: error: extra qualification on member 'RGBAPixel'
+RGBAPixel::RGBAPixel()
+~~~~~~~~~~~^
+./rgbapixel.h:8:23: error: expected ';' at end of declaration list
+RGBAPixel::RGBAPixel()
+                      ^
+                      ;
+In file included from unit_tests.cpp:7:
+In file included from ./png.h:25:
+./rgbapixel.h:8:12: error: extra qualification on member 'RGBAPixel'
+RGBAPixel::RGBAPixel()
+~~~~~~~~~~~^
+./rgbapixel.h:8:23: error: expected ';' at end of declaration list
+RGBAPixel::RGBAPixel()
+                      ^
+                      ;
+main.cpp:60:31: error: no member named 'green' in 'RGBAPixel'
+                original(xi,yi)->green+=amount;
+                ~~~~~~~~~~~~~~~  ^
+main.cpp:61:20: error: no member named 'blue' in 'RGBAPixel'
+                original(xi,yi)->blue+=amount;
+                ~~~~~~~~~~~~~~~  ^
+main.cpp:62:20: error: no member named 'red' in 'RGBAPixel'
+                original(xi,yi)->red+=amount;/// Your code here!
+                ~~~~~~~~~~~~~~~  ^
+main.cpp:81:25: error: use of undeclared identifier 'original'
+        for(size_t yi=0; yi<original.height(); yi++)
+                            ^
+main.cpp:83:23: error: use of undeclared identifier 'original'
+                for(size_t xi=0; xi<original.width();xi++)
+                                    ^
+main.cpp:85:23: error: no member named 'red' in 'RGBAPixel'
+                        firstImage(xi,yi)->red=(firstImage(xi,yi)->red+secondImage(xi,yi)->red)/2;
+                        ~~~~~~~~~~~~~~~~~  ^
+main.cpp:85:47: error: no member named 'red' in 'RGBAPixel'
+                        firstImage(xi,yi)->red=(firstImage(xi,yi)->red+secondImage(xi,yi)->red)/2;
+                                                ~~~~~~~~~~~~~~~~~  ^
+main.cpp:85:71: error: no member named 'red' in 'RGBAPixel'
+                        firstImage(xi,yi)->red=(firstImage(xi,yi)->red+secondImage(xi,yi)->red)/2;
+                                                                       ~~~~~~~~~~~~~~~~~~  ^
+main.cpp:86:23: error: no member named 'blue' in 'RGBAPixel'
+                        firstImage(xi,yi)->blue=(firstImage(xi,yi)->blue+secondImage(xi,yi)->blue)/2;
+                        ~~~~~~~~~~~~~~~~~  ^
+main.cpp:86:48: error: no member named 'blue' in 'RGBAPixel'
+                        firstImage(xi,yi)->blue=(firstImage(xi,yi)->blue+secondImage(xi,yi)->blue)/2;
+                                                 ~~~~~~~~~~~~~~~~~  ^
+main.cpp:86:73: error: no member named 'blue' in 'RGBAPixel'
+                        firstImage(xi,yi)->blue=(firstImage(xi,yi)->blue+secondImage(xi,yi)->blue)/2;
+                                                                         ~~~~~~~~~~~~~~~~~~  ^
+main.cpp:87:23: error: no member named 'green' in 'RGBAPixel'
+                        firstImage(xi,yi)->green=(firstImage(xi,yi)->green+secondImage(xi,yi)->green)/2;
+                        ~~~~~~~~~~~~~~~~~  ^
+main.cpp:87:49: error: no member named 'green' in 'RGBAPixel'
+                        firstImage(xi,yi)->green=(firstImage(xi,yi)->green+secondImage(xi,yi)->green)/2;
+                                                  ~~~~~~~~~~~~~~~~~  ^
+main.cpp:87:75: error: no member named 'green' in 'RGBAPixel'
+                        firstImage(xi,yi)->green=(firstImage(xi,yi)->green+secondImage(xi,yi)->green)/2;
+                                                                           ~~~~~~~~~~~~~~~~~~  ^
+main.cpp:116:15: error: no member named 'red' in 'RGBAPixel'
+    cyanColor.red = 0;
+    ~~~~~~~~~ ^
+main.cpp:117:15: error: no member named 'green' in 'RGBAPixel'
+    cyanColor.green = 255;
+    ~~~~~~~~~ ^
+main.cpp:118:15: error: no member named 'blue' in 'RGBAPixel'
+    cyanColor.blue = 255;
+    ~~~~~~~~~ ^
+19 errors generated.
+make: *** [main.o] Error 1
+make: *** Waiting for unfinished jobs....
+unit_tests.cpp:26:17: error: no member named 'red' in 'RGBAPixel'
+                        image(x, y)->red = 10*x + 10*y;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:27:17: error: no member named 'green' in 'RGBAPixel'
+                        image(x, y)->green = 25*x;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:28:17: error: no member named 'blue' in 'RGBAPixel'
+                        image(x, y)->blue = 255 - 2*x - 5*y;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:41:17: error: no member named 'red' in 'RGBAPixel'
+                        image(x, y)->red = y/2 + 64;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:42:17: error: no member named 'green' in 'RGBAPixel'
+                        image(x, y)->green = 100 + 10*x - 10*y;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:43:17: error: no member named 'blue' in 'RGBAPixel'
+                        image(x, y)->blue = 255 - 3*x - 3*y;
+                        ~~~~~~~~~~~  ^
+unit_tests.cpp:58:21: error: no member named 'red' in 'RGBAPixel'
+                        if (image(x, y)->red <= 255 - 100)
+                            ~~~~~~~~~~~  ^
+unit_tests.cpp:59:32: error: no member named 'red' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->red + 100, (int)brightened(x, y)->red);
+                                              ~~~~~~~~~~~  ^
+./proxy.h:318:52: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                 ^
+unit_tests.cpp:59:66: error: no member named 'red' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->red + 100, (int)brightened(x, y)->red);
+                                                                           ~~~~~~~~~~~~~~~~  ^
+./proxy.h:318:62: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                           ^
+unit_tests.cpp:61:30: error: no member named 'red' in 'RGBAPixel'
+                                ASSERT(brightened(x, y)->red == 255);
+                                       ~~~~~~~~~~~~~~~~  ^
+./proxy.h:297:9: note: expanded from macro 'ASSERT'
+                if (!(expr))                               \
+                      ^
+unit_tests.cpp:63:21: error: no member named 'green' in 'RGBAPixel'
+                        if (image(x, y)->green <= 255 - 100)
+                            ~~~~~~~~~~~  ^
+unit_tests.cpp:64:32: error: no member named 'green' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->green + 100, (int)brightened(x, y)->green);
+                                              ~~~~~~~~~~~  ^
+./proxy.h:318:52: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                 ^
+unit_tests.cpp:64:68: error: no member named 'green' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->green + 100, (int)brightened(x, y)->green);
+                                                                             ~~~~~~~~~~~~~~~~  ^
+./proxy.h:318:62: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                           ^
+unit_tests.cpp:66:30: error: no member named 'green' in 'RGBAPixel'
+                                ASSERT(brightened(x, y)->green == 255);
+                                       ~~~~~~~~~~~~~~~~  ^
+./proxy.h:297:9: note: expanded from macro 'ASSERT'
+                if (!(expr))                               \
+                      ^
+unit_tests.cpp:68:21: error: no member named 'blue' in 'RGBAPixel'
+                        if (image(x, y)->blue <= 255 - 100)
+                            ~~~~~~~~~~~  ^
+unit_tests.cpp:69:32: error: no member named 'blue' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->blue + 100, (int)brightened(x, y)->blue);
+                                              ~~~~~~~~~~~  ^
+./proxy.h:318:52: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                 ^
+unit_tests.cpp:69:67: error: no member named 'blue' in 'RGBAPixel'
+                                ASSERT_EQUALS(image(x, y)->blue + 100, (int)brightened(x, y)->blue);
+                                                                            ~~~~~~~~~~~~~~~~  ^
+./proxy.h:318:62: note: expanded from macro 'ASSERT_EQUALS'
+                std::string errormsg = proxy::assert_equals_help(expected, actual, #expected, #actual);  \
+                                                                           ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+ld: no input files
+1 error generated.
+make: *** [rgbapixel.o] Error 1
+In file included from png.cpp:13:
+In file included from ./png.h:25:
+./rgbapixel.h:8:12: error: extra qualification on member 'RGBAPixel'
+RGBAPixel::RGBAPixel()
+~~~~~~~~~~~^
+./rgbapixel.h:8:23: error: expected ';' at end of declaration list
+RGBAPixel::RGBAPixel()
+                      ^
+                      ;
+png.cpp:54:9: error: no member named 'red' in 'RGBAPixel'
+                        curr.red = 255;
+                        ~~~~ ^
+png.cpp:55:9: error: no member named 'green' in 'RGBAPixel'
+                        curr.green = 255;
+                        ~~~~ ^
+png.cpp:56:9: error: no member named 'blue' in 'RGBAPixel'
+                        curr.blue = 255;
+                        ~~~~ ^
+png.cpp:57:9: error: no member named 'alpha' in 'RGBAPixel'
+                        curr.alpha = 255;
+                        ~~~~ ^
+png.cpp:158:18: error: no member named 'red' in 'RGBAPixel'
+    return first.red == second.red && first.green == second.green && first.blue == second.blue && first.alpha == second.alpha;
+           ~~~~~ ^
+png.cpp:158:32: error: no member named 'red' in 'RGBAPixel'
+    return first.red == second.red && first.green == second.green && first.blue == second.blue && first.alpha == second.alpha;
+                        ~~~~~~ ^
+png.cpp:158:45: error: no member named 'green' in 'RGBAPixel'
+    return first.red == second.red && first.green == second.green && first.blue == second.blue && first.alpha == second.alpha;
+                                      ~~~~~ ^
+png.cpp:158:61: error: no member named 'green' in 'RGBAPixel'
+    return first.red == second.red && first.green == second.green && first.blue == second.blue && first.alpha == second.alpha;
+                                                     ~~~~~~ ^
+png.cpp:158:76: error: no member named 'blue' in 'RGBAPixel'
+    return first.red == second.red && first.green == second.green && first.blue == second.blue && first.alpha == second.alpha;
+                                                                     ~~~~~ ^
+png.cpp:158:91: error: no member named 'blue' in 'RGBAPixel'
+    return first.red == second.red && first.green == second.green && first.blue == second.blue && first.alpha == second.alpha;
+                                                                                   ~~~~~~ ^
+png.cpp:158:105: error: no member named 'alpha' in 'RGBAPixel'
+    return first.red == second.red && first.green == second.green && first.blue == second.blue && first.alpha == second.alpha;
+                                                                                                  ~~~~~ ^
+png.cpp:158:121: error: no member named 'alpha' in 'RGBAPixel'
+    return first.red == second.red && first.green == second.green && first.blue == second.blue && first.alpha == second.alpha;
+                                                                                                                 ~~~~~~ ^
+png.cpp:315:11: error: no member named 'red' in 'RGBAPixel'
+                                pixel.red = color;
+                                ~~~~~ ^
+png.cpp:316:11: error: no member named 'green' in 'RGBAPixel'
+                                pixel.green = color;
+                                ~~~~~ ^
+png.cpp:317:11: error: no member named 'blue' in 'RGBAPixel'
+                                pixel.blue = color;
+                                ~~~~~ ^
+png.cpp:319:12: error: no member named 'alpha' in 'RGBAPixel'
+                                        pixel.alpha = (uint8_t) *pix++;
+                                        ~~~~~ ^
+png.cpp:321:12: error: no member named 'alpha' in 'RGBAPixel'
+                                        pixel.alpha = 255;
+                                        ~~~~~ ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make: *** [png.o] Error 1
+
+
+Running tests...
+================================================================
+Could not execute test cases
+
+
+Total score...
+================================================================
+TOTAL SCORE: 0
+

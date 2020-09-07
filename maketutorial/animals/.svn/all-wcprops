@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/fa15-cs225/!svn/ver/869/_shared/maketutorial/animals
+END
+dog.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/fa15-cs225/!svn/ver/869/_shared/maketutorial/animals/dog.hpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/fa15-cs225/!svn/ver/869/_shared/maketutorial/animals/main.cpp
+END
+dog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/fa15-cs225/!svn/ver/869/_shared/maketutorial/animals/dog.cpp
+END

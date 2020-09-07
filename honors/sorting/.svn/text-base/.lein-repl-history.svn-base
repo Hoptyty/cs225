@@ -1,0 +1,500 @@
+exit
+(zero-one 1)
+(zero-one 2)
+exit
+(zero-one 2)
+exit
+(zero-one 2)
+(zero-one 1)
+exit
+(zero-one 1)
+(zero-one 1_
+)
+(zero-one 1)
+(zero-one 2)
+(zero-one 3)
+(cas [1 2 5 4 7] [2 3])
+(zero-one 1)
+(zero-one 2)
+(zero-one 20)
+(zero-one 2)
+(zero-one 20)
+(zero-one 2)
+(zero-one 20)
+(zero-one 2)
+(zero-one 2 2)
+(zero-one 2 2 3)
+(zero-one)
+(zero-one 4)
+(zero-one 4 4 4 4)
+(zero-one 4)
+(zero-one 0)
+(zero-one 1)
+(zero-one 2)
+(mapcat add-bit [1 2 3 4])
+(add-bit [1 3 45])
+(mapcat add-bit [[0] [1]])
+(mapcat add-bit [])
+(mapcat add-bit ())
+(zero-one 1)
+(zero-one 2)
+(zero-one 3)
+(verify n6)
+(sorted [12 3 7])
+(zero-one 5)
+(zero-one 10)
+(zero-one 20)
+(sorted [1 2 3 4 5])
+(sorted [1 2 6 4 5])
+(and (sorted [1 2]) (sorted [2 1]))
+(and (sorted [1 2]) (sorted [2 3]))
+(verify n6)
+(hello)
+(sorted? [1 2 3 0])
+(sorted? [1 2 3 4])
+(sorted? (n-sort [9 10 11 6 4 2] n6)
+)
+(sorted? (n-sort [9 10 11 6 4 2] n6))
+(sorted? (n-sort ([9 10 11 6 4 2] n6)))
+(sorted? n-sort [9 10 11 6 4 2] n6))
+(sorted? n-sort [9 10 11 6 4 2] n6)
+(n-sort [9 10 11 6 4 2] n6)
+(sorted? n-sort [9 10 11 6 4 2] n6)
+(sorted? (n-sort [9 10 11 6 4 2] n6))
+(apply <= (n-sort [9 10 11 6 4 2] n6))
+(defn sorted
+[v]
+(apply <= v))
+(sorted (n-sort [9 10 11 6 4 2] n6))
+(every? sorted [(n-sort [9 10 11 6 4 2] n6) (n-sort [1 3 5 7 2 4] n6)])
+(every? sorted n-sort (zero-one 6) n6)
+(every? sorted (n-sort (zero-one 6) n6))
+(every? sorted (map n-sort (zero-one 6) n6))
+(every? sorted (reduce n-sort (zero-one 6) n6))
+(map + [1 2 3] 1)
+(map (+ [1 2 3] 1))
+(map (+ 1 [1 2 3]))
+(map (inc [1 2 3]))
+(map + [1 2 3] 1))
+(map + [1 2 3] 1)
+(map + [1 2 3] (inc 1)
+)
+(map + [1 2 3] (inc 1))
+(map + [1 2 3] (iterate inc 1))
+(map + [1 2 3] (iterate 1))
+(map + [1 2 3] (repeat 1))
+(map n-sort (zero-one 6) (repeat n6))
+(verify n6)
+(max [[1] [2 3] [56 23])
+(max [[1] [2 3] [56 23]])
+(max n6)
+(apply max n6)
+(map apply max n6)
+(map max n6)
+(max (map #(apply max%) n6))
+(max (map #(apply max %) n6))
+(max map #(apply max %) n6)
+(apply max (map #(apply max %) n6))
+(apply max n6))
+(apply max (map apply max n6))
+(apply max (map (apply max n6)))
+(+ 1 (apply max (map #(apply max %) n6)))
+(verify n6)
+(verify nbub)
+(map n-sor (zero-one (num-ele nbub)) (repeat nbub))
+(map n-sort (zero-one (num-ele nbub)) (repeat nbub))
+(verify nbub)
+cd
+(verify n6)
+(map n-sor (zero-one (num-ele n6)) (repeat n6))
+(map n-sort (zero-one (num-ele n6)) (repeat n6))
+(map inc [0 1])
+(map inc [[0 1]])
+(mapcat inc [[0 1]])
+(mapcat inc [0 1])
+(inc [0 1])
+([map inc [0 1]])
+(map inc [map inc [0 1]])
+(map inc (map inc [0 1]))
+exit
+(cons [[0 1]] [1 2])
+(cons [0 1] [[1 2] [2 3]])
+exit
+(defn bubble [n]
+(if (= n 2)
+[[0 1]]
+(mapcat inc bubble (- n 1))))
+(bubble 6)
+exit
+(bubble-sort 1)
+(bubble-sort 2)
+(bubble-sort 3)
+exit
+(bubble-sort 6)
+(bubble-sort 2)
+(bubble-sort 3)
+(inc [0 1])
+exit
+(bubble-sort 6
+)
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+wq
+exit
+(butlast [1 2 3 4 5])
+(butlast [[0 1] [1 2] [2 3] [3 4]])
+(butlast [[0 1]])
+(butlast nil)
+exit
+(def n4 [[0 1] [1 2] [2 3]])
+(defn bub
+exit
+)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+exit
+(bubble-sort 6)
+(verify bubble-sort 6)
+(verify (bubble-sort 6))
+(map n-sort (zero-one (num-ele (bubble-sort 6))) (repeat (bubble-sort 6)))
+exit
+(bubble-sort 6)
+exit
+(bubble-sort2 6)
+exit
+(bubble-sort2 6)
+exit
+(bubble-sort2 6)
+(bubble-sort2 2)
+(take 3 [1 2 3 4 5])
+(bubble-sort2 3)
+exit
+(bubble-sort2 3)
+(bubble-sort2 6)
+exit
+(bubble-sort2 6)
+exit
+(bubble-sort2 6)
+exit
+(bubble-sort2 6)
+exit
+(bubble-sort2 6)
+exit
+(collapse 6)
+exit
+(collapse 6)
+exit
+(collapse 6)
+exit
+(collapse 6)
+exit
+(collapse 6)
+(collapse 3)
+exit
+(collapse 6)
+exit
+(collapse 6)
+(butlast [0 1])
+(butlast [[0 1]])
+exit
+(multi-3-5 5)
+exit
+(bubble-sort2 6)
+exit
+(bubble-sort 6)
+(for [x (range) :while (< x 10)
+y (range) :while (<= y x)]
+[x y])
+exit
+(loop [i 0]
+(when (< i 5)
+(println i)
+(recur (inc i))))
+(loop [i]
+(when (< i 5)
+(println i)
+(recur (inc i))))
+(loop [i 2]
+(when (< i 5)
+(println i)
+(recur (inc i))))
+(loop [i -1]
+(when (< i 5)
+(println i)
+(recur (inc i))))
+exit
+(for [x n6
+y n6]
+[x y])
+(for [x n6
+[x y])
+(for [x n6
+y n6]
+(x y))
+(for [x n6
+y n6]
+concat (x y))
+(for [x n6
+y n6]
+(concat [x y]))
+(for [x n6
+y n6]
+[concat [x y]])
+(vec(concat [x y])))
+(for [x n6
+y n6]
+exit
+)
+exit
+(trial n6)
+exit
+(trial n6)
+exit
+(trial n6)
+exit
+(bubble-sort2 6)
+exit
+(bubble-sort2 6)
+exit
+(bubble-sort2 6)
+exit
+(bubble-sort2 6)
+(range 1 10)
+(range 11 10)
+(range 13 10 -1)
+(concat range 13 10 -1)
+(concat (range 13 10 -1))
+(map bubble-help (range 6 2 -1)
+(map bubble-help (range 6 2 -1))
+)
+(map bubble-help (range 6 2 -1))
+(mapcat bubble-help (range 6 2 -1))
+(mapvcat bubble-help (range 6 2 -1))
+(mapvcatv bubble-help (range 6 2 -1))
+(mapcatv bubble-help (range 6 2 -1))
+exit
+(bubble-sort3 6)
+(bubble-sort2 6)
+(range 6 2 -1)
+exit
+(range 6 2 -1)
+(bubble-sort2 6)
+(mapv inc [0 1])
+(mapcat inc [0 1])
+(take 10 range)
+(take 10 (range))
+(take 6 (range))
+(take 6 (range 1))
+(take 6 (range infinity))
+(partition 2 1 (range 6))
+(vec (partition 2 1 (range 6)))
+(partition 2 1 (vec(range 6)))
+(apply vec (partition 2 1 (range 6)))
+(mapcat (fn [n] (partition 2 1 (range n)) (range n 1 -1))
+(mapcat (fn [n] (partition 2 1 (range n)) (range n 1 -1)))
+)
+(mapcat (fn [n] (partition 2 1 (range n))) (range n 1 -1))
+(mapcat (fn [6] (partition 2 1 (range 6))) (range 6 1 -1))
+(defn bub [n] (mapcat (fn [n] (partition 2 1 (range n))) (range n 1 -1)))
+(bub 6)
+(conj (vector-of vec) (1 2 3)
+(conj (vector-of vec) 1 2 3)
+)
+(conj (vector-of vec) 1 2 3)
+(conj (vector-of :vec) 1 2 3)
+(conj (vector-of :int) 1 2 3)
+(map (fn [v] (vec [v])) [1 2 3 4])
+(mapcat (fn [6] (partition' 2 1 (range 6))) (range 6 1 -1))
+(defn bub [n] (mapcat (fn [n] (partition' 2 1 (range n))) (range n 1 -1)))
+(partition 2 1 (vec(range 6)))
+(reduce vec (partition 2 1 (vec(range 6))))
+(vec (partition 2 1 (range 6)))
+(apply vec (partition 2 1 (range 6)))
+(reduce vec (partition 2 1 (range 6)))
+(map vec (partition 2 1 (range 6)))
+(vec (map vec (partition 2 1 (range 6))))
+(vec (mapv (partition 2 1 (range 6))))
+(vec (map vec (partition 2 1 (range 6))))
+exit
+(bubble-help 5)
+(bubble-help2 5)
+(bubble-help2 6)
+exit
+(bubble-sort0 6)
+exit
+(bubble-sort0 6)
+exit
+(bubble-sort0 6)
+exit
+(bubble-sort0 6)
+(sortv [1 3 4 2 1])
+(sort [1 3 4 2 1])
+(vec (sort [1 3 4 2 1]))
+(sort [[1 2] [3 4] [1 2 4 5]])
+(sort [[1 3 4 2] [7 1 8 2]])
+(map sort [[1 3 4 2] [7 1 8 2]])
+(mapv sort [[1 3 4 2] [7 1 8 2]])
+(map vec (mapv sort [[1 3 4 2] [7 1 8 2]]))
+(map vec (map sort [[1 3 4 2] [7 1 8 2]]))
+(vec (map vec (map sort [[1 3 4 2] [7 1 8 2]])))
+(collapse (bubble-sort0 6))
+exit
+(collapse (bubble-sort0 6))
+(collapse (bubble-sort 6))
+(map-indexed bubble-sort)
+(map-indexed bubble-sort (range 3))
+(map-indexed bubble-sort 4)
+(compare [0 1] [2 3])
+(compare [0 1] [1 3])
+(compare [0 1] [0 1])
+(compare [0 1] [2 31])
+(compare [0 1] [0 2])
+(compare [0 1] [0 2 3 4])
+(compare [0 1 2 3 4 5 6] [0 2 3 4])
+(compare [0 1 2 7 4 5 6] [0 2 3 4])
+(for x [0 1 2 7 4 5 6] y [0 2 3 4]
+(compare x y)
+)
+(for x [0 1 2 7 4 5 6] y [0 2 3 4]
+[x y])
+exit
+(verify n6)
+(verify (bubble-sort 6))
+(count n6)
+(n6)
+(range 6)
+(partition 2 (rang 6))
+(partition 2 (range 6))
+(for [x (range 6) y (range 6) :while ( > y x)] [x y])
+(for [x (range 6) y (range 6) :while (<= x y)] [x y])
+(for [x (range 6) y (range 6) :while (< x y)] [x y])
+(for [x (range 6) y (range 6) :when ( > y x)] [x y])
+(diff [1 2] [2 3])
+(doc diff)
+(doc difference)
+(doc map)
+(doc diff)
+(merge [1 2] [2 3])
+(merge [1 2] 3)
+(merge (1 2) 3)
+(use 'clojure.set)
+(use '(clojure.set))
+(use 'clojure.set)
+(use clojure.set)
+(use 'clojure.set)
+(diff [1 2] [2 3])
+(union [1 2] [2 3])
+exit
+(collapse2 n6)
+exit
+(trial n6)
+(use 'clojure.data)
+(diff [1 2] [2 3])
+(diff [1 2] [2 1])
+(diff [[1 2]] [[2 1]])
+(diff [[1 2]] [[3 4]])
+(diff [[1 2]] [[1 2]])
+(diff [1 2] [1 2])
+(diff [1 3] [1 2])
+(diff (1 3) (1 2))
+(diff [1 2] [3 4])
+(diff [1 2] [2 3])
+(diff '[1 2] '[2 3])
+(diff (set [1 2]) (set [2 3]))
+(diff #[1 2] #[2 3])
+(diff (set [1 2]) (set [2 3]))
+(.indexOf 1 [1 2 3])
+(get 5 n6)
+(get 1 n6)
+(nth 1 [1 2 3])
+(get [1 2 3] 1)
+(get n6 6)
+(get n6 5)
+(mapcat get n6 (range 6))
+(mapcat get (repeat n6) (range 6))
+(map get (repeat n6) (range 6))
+(map get (repeat n6) [4 5])
+(map get (repeat n6) ([3 4] [4 5]))
+(diff (map set (map get (repeat n6) [4 5]))
+)
+(map set (map get (repeat n6) [4 5]))
+(diff (map set (map get (repeat n6) [4 5])))
+(diff (map get (repeat n6) [4 5]))
+(map diff (map get (repeat n6) [4 5]))
+(map get (repeat n6) [4 5])
+(set (map get (repeat n6) [4 5]))
+(map set (map get (repeat n6) [4 5]))
+(apply diff (map get (repeat n6) [4 5]))
+(apply diff (map set (map get (repeat n6) [4 5])))
+(reduce diff (map set (map get (repeat n6) [4 5])))
+(diff #{1 2 3 4} #{2 3})
+(diff #{1 4} #{2 3})
+(reduce diff (map set (map get (repeat n6) [4 5])))
+(reduce diff (map set (map get (repeat (bubble-sort 6)) [4 5])))
+(last (reduce diff (map set (map get (repeat (bubble-sort 6)) [4 5]))))
+(nil? last (reduce diff (map set (map get (repeat (bubble-sort 6)) [4 5]))))
+(nil? (last (reduce diff (map set (map get (repeat (bubble-sort 6)) [4 5])))))
+(every? nil? (last (reduce diff (map set (map get (repeat (bubble-sort 6)) [4 5])))))
+(for [x 1 y (range 6)] [x y])
+(for [x (repeat 1) y (range 6)] [x y])
+(for [x (take 6 (repeat 1)) y (range 6)] [x y])
+(for [x [1] y (range 6)] [x y])
+(for [x [1] y (range 1 6)] [x y])
+(for [x [1] y (range 2 6)] [x y])

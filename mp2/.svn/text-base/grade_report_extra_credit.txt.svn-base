@@ -1,0 +1,26 @@
+Grading revision r7455 by tliang7, dated 2015-09-08 21:24:56.000210202 -0500 CDT
+Monad Autograder
+Testing mp2.1 at 2015-09-09 01:40:27
+
+"I did respond to your email, but I might have forgotten to hit send." ~ Cinda Heeren
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+InvertColorsEven  . . [30 pts] - passed
+FlipLeftEven  . . . . [15 pts] - passed
+FlipLeftOdd . . . . . [15 pts] - passed
+AdjustBrightnessEven  [10 pts] - passed
+AdjustBrightnessEven2 [10 pts] - passed
+AdjustBrightnessEven3 [10 pts] - passed
+ImageMakefile . . . . [10 pts] - FAILED
+
+
+Total score...
+================================================================
+TOTAL SCORE: 90
+

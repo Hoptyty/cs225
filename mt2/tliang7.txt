@@ -1,0 +1,38 @@
+Exam report for tliang7
+CS 225, Fall 2015, Midterm 2, Exam number 624, version 2
+
+ Num   Stu/Sol   Max   Score 
+----- --------- ----- -------
+   1    b / b    2.5    2.5
+   2    b / c    2.5    0.0
+   3    d / d    2.5    2.5
+   4    a / c    2.5    0.0
+   5    a / d    2.5    0.0
+   6    e / a    2.5    0.0
+   7    d / d    2.5    2.5
+   8    b / b    2.5    2.5
+   9    c / c    2.5    2.5
+  10    c / c    2.5    2.5
+  11    b / c    2.5    0.0
+  12    c / c    2.5    2.5
+  13    c / a    2.5    0.0
+  14    a / a    2.5    2.5
+  15    d / d    2.5    2.5
+  16    c / c    2.5    2.5
+  17    b / b    2.5    2.5
+  18    d / d    2.5    2.5
+  19    c / c    2.5    2.5
+  20    c / a    2.5    0.0
+  21             5.0    5.0  
+  22             5.0    5.0  
+  23             3.0    2.0  Incorrect header
+  24             5.0    5.0  
+  25             4.0    4.0  
+  26             5.0    5.0  
+  27             5.0    3.5  "not termiate, set elem of internal node"
+  28             5.0    4.0  b
+  29             3.0    0.0  
+  30            10.0    9.0  b
+----- --------- ----- -------
+                100.0  75.0
+ Normalized score = 75.00

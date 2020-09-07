@@ -1,0 +1,51 @@
+Grading revision r17672 by tliang7, dated 2015-09-25 23:54:53.000558644 -0500 CDT
+Monad Autograder
+Testing mp3.1 at 2015-09-26 02:09:56
+
+"If you just rely on one model, you tend to amputate reality to make it fit your model." ~ David Brooks
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+testInsertFront  . . . . . . . . [2 pts] - FAILED
+testInsertBack . . . . . . . . . [2 pts] - passed
+testDestructor10 (asan)  . . . . [5 pts] - passed
+testDestructor37 (asan)  . . . . [5 pts] - FAILED
+testReverse20_size . . . . . . . [1 pts] - FAILED
+testReverse20_forward  . . . . . [3 pts] - FAILED
+testReverse20_backward . . . . . [4 pts] - FAILED
+testReverse37_size . . . . . . . [1 pts] - FAILED
+testReverse37_forward  . . . . . [2 pts] - FAILED
+testReverse37_backward . . . . . [2 pts] - FAILED
+testReverseEmpty (asan)  . . . . [5 pts] - FAILED
+testReverse20_memory (asan)  . . [3 pts] - FAILED
+testReverseNth20_2_size  . . . . [1 pts] - FAILED
+testReverseNth20_2_forward . . . [3 pts] - FAILED
+testReverseNth20_2_backward  . . [4 pts] - FAILED
+testReverseNth37_4_size  . . . . [1 pts] - FAILED
+testReverseNth37_4_forward . . . [5 pts] - FAILED
+testReverseNth37_4_backward  . . [6 pts] - FAILED
+testReverseNth37_37  . . . . . . [3 pts] - FAILED
+testReverseNth37_4_memory (asan) [3 pts] - FAILED
+testReverseNthEmpty (asan) . . . [5 pts] - FAILED
+testWaterfall4_size  . . . . . . [1 pts] - passed
+testWaterfall4_forward . . . . . [3 pts] - passed
+testWaterfall4_backward  . . . . [4 pts] - passed
+testWaterfall7_size  . . . . . . [1 pts] - passed
+testWaterfall7_forward . . . . . [3 pts] - passed
+testWaterfall7_backward  . . . . [4 pts] - passed
+testWaterfall12_size . . . . . . [1 pts] - passed
+testWaterfall12_forward  . . . . [3 pts] - passed
+testWaterfall12_backward . . . . [4 pts] - passed
+testWaterfall7_memory (asan) . . [5 pts] - passed
+testWaterfall7_empty (asan)  . . [5 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 41
+

@@ -1,0 +1,27 @@
+Grading revision r36934 by tliang7, dated 2015-10-31 19:48:56.000587198 -0500 CDT
+Monad Autograder
+Testing lab_avl at 2015-11-02 00:38:00
+
+"Television won't be able to hold on to any market it captures after the first six months. People will soon get tired of staring at a plywood box every night." ~ Darryl Zanuck, 20th Century Fox, 1946
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_oneElement  . . . [10 pts] - passed
+test_simpleRotateLeft  [10 pts] - passed
+test_simpleRotateRight [10 pts] - passed
+test_threeLeftRotates  [10 pts] - passed
+test_threeRightRotates [10 pts] - passed
+test_manyRotations . . [20 pts] - passed
+test_manyInserts . . . [20 pts] - passed
+test_valgrind (asan) . [10 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/fa15-cs225/!svn/ver/42315/tliang7/honors/adventure
+END
+.hgignore
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/fa15-cs225/!svn/ver/42315/tliang7/honors/adventure/.hgignore
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/fa15-cs225/!svn/ver/42315/tliang7/honors/adventure/LICENSE
+END
+.lein-repl-history
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/fa15-cs225/!svn/ver/42315/tliang7/honors/adventure/.lein-repl-history
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/fa15-cs225/!svn/ver/42315/tliang7/honors/adventure/.gitignore
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/fa15-cs225/!svn/ver/42315/tliang7/honors/adventure/README.md
+END
+project.clj
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/fa15-cs225/!svn/ver/42315/tliang7/honors/adventure/project.clj
+END

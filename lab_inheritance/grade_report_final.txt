@@ -1,0 +1,27 @@
+Grading revision r13500 by tliang7, dated 2015-09-17 21:48:11.000671939 -0500 CDT
+Monad Autograder
+Testing lab_inheritance at 2015-09-21 01:07:38
+
+"If you think you can do it all, you're thinking too small." ~ Michael Lopp
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_virtual_perim  . . . . . . [10 pts] - passed
+test_virtual_area . . . . . . . [10 pts] - passed
+test_destructor (asan)  . . . . [20 pts] - passed
+test_constructor  . . . . . . . [10 pts] - passed
+test_drawable_destructor (asan) [10 pts] - passed
+test_truck_draw . . . . . . . . [10 pts] - passed
+test_slicing  . . . . . . . . . [20 pts] - passed
+test_flower_destructor (asan) . [10 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+
